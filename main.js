@@ -1,8 +1,5 @@
-var tiempo, costominuto,costollamada;
-
-tiempo=prompt("ingresa porfavor el tiempo de llamada");
-costominuto=prompt("ingrese porfavor el costo por minuto");
-
-costollamada= tiempo * costominuto;
-   
-alert(costollamada);
+var edad = 21;
+if (edad > 18){
+    console.log("soy mayor de edad");
+    
+}
