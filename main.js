@@ -1,5 +1,8 @@
-var edad = 21;
+
+var edad = prompt("cual es tu edad?");
 if (edad > 18){
-    console.log("soy mayor de edad");
-    
+    alert ("soy mayor de edad");
+}
+else{
+    alert ("soy menor de edad");
 }
