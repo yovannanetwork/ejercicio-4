@@ -1,8 +1,9 @@
+var tiempoLlamada, precioMinuto, costoTotal;
+var tiempoLlamada = prompt("ingrese, ¿cuanto tiempo ?");
+var costoTotal = prompt("ingrese, costo por minuto");
+var costoTotal = tiempoLlamada*costoTotal;
+alert(costoTotal);
 
-var edad = prompt("cual es tu edad?");
-if (edad > 18){
-    alert ("soy mayor de edad");
-}
-else{
-    alert ("soy menor de edad");
-}
+
+
+
